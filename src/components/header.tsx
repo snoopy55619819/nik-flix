@@ -13,6 +13,11 @@ export function Header() {
           Video
         </Link>
       </li>
+      <li className="mr-6 text-lg">
+        <Link className="text-blue-500 hover:text-blue-800" to="/login">
+          Login
+        </Link>
+      </li>
     </ul>
   );
 }

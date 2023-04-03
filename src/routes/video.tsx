@@ -18,13 +18,16 @@ export function Video() {
           ref={setDefaults}
           width="80%"
           controls
-          autoPlay={true}
+          autoPlay={false}
           onEnded={() => {
-            //TODO: add logic to autoplay next video
             console.log("---ended---");
           }}
         >
-          <source src={S2E8_mp4} type="video/mp4" />
+          {/* <source src={S2E8_mp4} type="video/mp4" /> */}
+          {/* <source
+            src="https://ik.imagekit.io/fk3fnanrn/S2E8.mp4"
+            type="video/mp4"
+          /> */}
         </video>
       </div>
     </div>
